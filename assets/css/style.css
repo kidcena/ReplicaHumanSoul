@@ -1,0 +1,450 @@
+﻿
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.set-pad {
+    padding-top:35px;
+    
+	
+
+}
+.set-row-pad {
+    padding-top:30px;
+    padding-bottom:50px;
+}
+/*=====================================
+  NAVBAR STYLES 
+    ===================================*/
+
+.logo-custom {
+    max-height: 40px;
+}
+
+#menu {
+    background-color: rgba(28, 43, 75, 1);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    min-height: 70px;
+}
+
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+    .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
+        color: #FFF;
+        padding: 22px 10px;
+    }
+
+
+/*=====================================
+  HOME STYLES 
+    ===================================*/
+.home-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/header.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .home-sec .overlay {
+        background: rgba(38, 57, 88, 0.89);
+        min-height: 500px;
+    }
+
+    .home-sec h1 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding-bottom: 35px;
+    }
+
+    .home-sec h3 {
+        text-transform: uppercase;
+    }
+
+
+
+.set-flexi {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: transparent;
+    border: 0px solid #000;
+    padding-top: 120px;
+}
+#slide-0 {
+  background-image: url(http://farm8.staticflickr.com/7347/8731666710_34d07e709e_z.jpg);
+}
+
+.flex-control-nav {
+    display: none!important;
+}
+
+.set-flexi a {
+    margin: 5px;
+}
+/*=====================================
+  TAG LINE STYLES 
+    ===================================*/
+
+.tag-line {
+    background: #E9E9E9;
+    color: #000;
+}
+
+    .tag-line h2 {
+        font-size: 20px;
+        font-weight: 900;
+        padding: 5px 10px 10px 5px;
+        color: #005E5A;
+    }
+
+        .tag-line h2 > i {
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+/*=====================================
+  HEADER LINE STYLES 
+    ===================================*/
+.header-line {
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+}
+
+h1::after {
+    content: " ";
+    border: solid 2px #2f9484;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+	font-weight: bold;
+}
+
+/*=====================================
+  ABOUT STYLES 
+  ===================================*/
+.about-div {
+    padding: 30px;
+}
+
+.icon-round-border {
+    border: 10px double #1A94C4;
+    color: #2f9484;
+    text-align: center;
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    .icon-round-border:hover {
+        color: #fff;
+        border: 10px double #fff;
+        background-color: #1A94C4;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+.about-div hr {
+    border: 1px solid #1A94C4;
+}
+
+.about-div h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-div p {
+    padding-top: 10px;
+}
+
+.btn-set {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-bottom: 20px;
+}
+/*=====================================
+  FACULTY STYLES 
+  ===================================*/
+#faculty-sec {
+    background-color: #000;
+    color: #fff;
+}
+
+    #faculty-sec .header-line {
+        color: #fff;
+    }
+.faculty-div h4 {
+    line-height:30px;
+    font-weight:700;
+}
+.faculty-div {
+    padding: 30px;
+}
+
+    .faculty-div hr {
+        border: 1px solid #1A94C4;
+    }
+
+    .faculty-div h3 {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .faculty-div p {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .faculty-div img {
+        border: 10px double #fff;
+    }
+
+/*=====================================
+  CONTACT STYLES 
+  ===================================*/
+#contact-sec {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: url(https://www.humansoul.com.mx/wp-content/uploads/2020/06/human-soul-img2-1250x1092-1.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: auto;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+#init_sec{
+     padding-top: 0px;
+    padding-bottom: 0px;
+    background: url(../img/human-soul-img3-2500x1667-1.jpg)o-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: auto;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+#contact-sec .overlay {
+        background: rgba(0, 0, 0, 0.76);
+        min-height: 600px;
+    }
+
+    #contact-sec h1 {
+        color:#fff;
+    }
+#contact-sec .form-control{
+    background-color:rgba(255, 255, 255, 0);
+    color:#fff;
+}
+/*=====================================
+  Footer STYLES 
+  ===================================*/
+#footer {
+    padding:5px 20px;
+    background-color:#2d3d5a;
+    text-align:right;
+    color:#fff;
+    font-size:15px;
+}
+.bc-1 {
+    background-color: white;
+    color: black;
+    
+}
+
+.bc-1, .bc-2, .bc-3, .bc-4, .bc-5, .bc-6, .bc-7{
+    border: 10px solid lightgray;
+}
+
+.bc-2 {
+    background-color: mediumseagreen;
+    color: white;
+    padding: 0 5px 0 5px;
+}
+
+.bc-3 {
+    background-color: blue;
+    color: white;
+    
+}
+
+.set-padd {
+    padding-top: 35px;
+    padding-right: 35px
+}
+
+.bc-5 {
+    background-color: blue;
+    color: white;
+}
+
+.bc-6 {
+    background-color: hotpink;
+    color: white;
+}
+
+.set-pdd {
+    padding-top: 6%;
+    background-color: rgba(28, 43, 75, 1);
+   
+}
+
+.set-paad {
+    margin-top: 5%;
+    background-color: #e5e3e8;
+    padding-bottom: 3%;
+}
+
+.tm {
+   padding-top: 6%;
+   
+}
+
+.separa {
+     border-top: 3px solid black;
+    padding-top: 3%;
+}
+
+.tms {
+    padding-top: 10%
+}
+
+.cc-1 {
+    background-color: #2761e8;
+    color: white;
+    padding-top: 3%;
+    border-top: 25px solid #e5e3e8;
+    
+}
+
+.bg-i {
+    background-image: url(../img/human-soul-img3-2500x1667-1.jpg);
+    background-position: 70% center;
+   
+}
+
+#bg-i {
+    background-image: url(../img/human-soul-img3-2500x1667-1.jpg)
+}
+
+.st-b {
+    padding-top: 15%;
+}
+
+.set-pdo {
+    padding-top: 5%;
+}
+
+.centrar {
+    padding-top: 10%;
+}
+
+.about-stats {
+    text-align: center;
+}
+
+.stats__col {
+    margin: 5.4rem 0;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.stats__col:last-child {
+    border-right: none;
+}
+
+.stats__count {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 4.4rem;
+    line-height: 1;
+    color: #434bdb;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stats h5 {
+    font-family: "montserrat-semibold", sans-serif;
+    margin-top: 1.8rem;
+    color: #000000;
+    font-size: 1.8rem;
+    line-height: 1.333;
+    position: relative;
+}
+
+.about__line {
+    display: block;
+    width: 2px;
+    height: 10.2rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 7.2rem;
+    top: 0;
+}
+
+
+.ft-c {
+    padding-top: 7%;
+}
+
+.ft-a {
+    padding-bottom: 4%;
+}
+
+.set-pdp {
+    padding-top: 5%;
+}
+
+.d-1 {
+    padding-top: 7%;
+}
+
+.set-aba {
+    padding-top: 20%;
+}
+
+.st-aba {
+    
+}
+
+.abajo {
+    margin-top: 4%;
+}
